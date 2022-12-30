@@ -1,0 +1,13 @@
+{
+  "Flex": 12,
+  "Div": 16,
+  "Link": 23,
+  "Menu": 1,
+  "TextBox": 24,
+  "Button": 6,
+  "Input": 4,
+  "Form": 1,
+  "Icon": 1,
+  "Checkbox": 4,
+  "Cascader": 1
+}

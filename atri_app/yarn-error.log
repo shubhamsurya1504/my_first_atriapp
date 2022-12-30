@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Users\MY PC\.atri\webapp-builder-win.exe.v0.0.89 C:\snapshot\webapp-builder\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\python;C:\Users\MY PC\AppData\Local\Programs\Python\Python310;C:\Users\MY PC\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\MY PC\.virtualenvs\MY_PC-5x9hvbMk\Scripts;C:\Users\MY PC\AppData\Roaming\Python\Python310\Scripts;C:\Users\MY PC\AppData\Local\Microsoft\WindowsApps;C:\Users\MY PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\MY PC\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;C:\Users\MY PC\AppData\Local\GitHubDesktop\bin;C:\Users\YOUR_USER\AppData\Local\Programs\Python\Python310\Scripts
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\MY PC\AppData\Local\Yarn\Cache\v6\npm-es-module-lexer-0.9.3-6f13db00cc38417137daf74366f535c8eb438f19-integrity\node_modules\es-module-lexer\lexer.js' -> 'C:\Windows\System32\my_app2\atri_app\node_modules\es-module-lexer\lexer.js'
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.89",
+      "@atrilabs/core": "^0.0.89",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.89"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
